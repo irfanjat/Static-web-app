@@ -16,7 +16,7 @@ jobs:
         run: echo "No tests yet but pipeline works"
 
       - name: Build Docker image
-        run: docker build -t Static-web-app .
+        run: docker build -t static-web-app .
         
       - name: Build and Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v4
